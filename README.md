@@ -53,13 +53,7 @@ This repo is meant as a **case study showcase**. A **demo video** is provided, a
 
 ---
 
-## 📊 Analytics & Leaderboards (PostgreSQL)
-
-- **Data captured** (selected):
-  - Users: `tg_id`, `nickname`, encrypted `phrase` (mnemonic), password hash, salt.  
-  - Addresses: on-chain addresses linked to a `tg_id`.  
-  - Bets (solo): `address`, `bet_value`, `reward`, `roll_id`, `timestamp`.  
-  - Arena bets: `game_id`, player `address`, `balance`, `roll_id`, `hard_currency`, `timestamp`.  
+## 📊 Analytics & Leaderboards (PostgreSQL) 
 
 - **Metrics exposed**:
   - **User PnL** over configurable time ranges.  
@@ -67,7 +61,6 @@ This repo is meant as a **case study showcase**. A **demo video** is provided, a
   - **PnL over time series** (bucketing by interval).  
   - **Global PnL over time**.  
   - **Leaderboard** for Arena wins/losses.  
-
 
 **Privacy & security notes:**
 - Mnemonics are **encrypted at rest** (CipherSweet) and only decrypted with a key derived from **user password + backend key**.  
@@ -93,7 +86,7 @@ This repo is meant as a **case study showcase**. A **demo video** is provided, a
     - Build & test contracts with Foundry.  
     - Deploy contracts to testnet.  
     - Generate configs and push to VPS.  
-    - Restart bot & listener with **pm2**.  
+    - Restart bot & listener.  
   - Hosted on self-managed VPS.  
 
 - **Testing**  
@@ -106,19 +99,7 @@ This repo is meant as a **case study showcase**. A **demo video** is provided, a
 
 - Sole developer for both **smart contracts** and **Telegram bot backend**.  
 - Wrote the entire **Craps game logic** from scratch in Solidity.  
-- Implemented wallet encryption, Telegram integration, analytics, and CI/CD.  
-- Minimal coworker support for minor auxiliary tasks.  
-
----
-
-## 📌 Why It Matters
-
-This project demonstrates:  
-- **Smart contract game logic** for complex probabilistic games.  
-- **Full Telegram bot integration** with blockchain backend.  
-- **Player security best practices** in a gaming context.  
-- **Operational maturity**: CI/CD, telemetry, and data-driven insights.  
-- **End-to-end engineering**: contracts, backend, analytics, deployment.  
+- Implemented wallet encryption, Telegram integration, analytics, and co-worked on CI/CD.    
 
 ---
 
