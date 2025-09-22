@@ -97,9 +97,9 @@ This repo is meant as a **case study showcase**. A **demo video** is provided, a
 
 ## 👤 My Role
 
-- Sole developer for both **smart contracts** and **Telegram bot backend**.  
-- Wrote the entire **Craps game logic** from scratch in Solidity.  
-- Implemented wallet encryption, Telegram integration, analytics, and co-worked on CI/CD.    
+- Both **smart contracts** and **Telegram bot backend**.  
+- Entire **Craps game logic** from scratch in Solidity.  
+- Wallet encryption, Telegram integration, analytics, and co-worked on CI/CD.    
 
 ---
 
